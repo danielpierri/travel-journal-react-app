@@ -9,10 +9,10 @@ export default function App() {
       <Main
         // title={trip.title}
         // location={trip.location}
-        // googleMapsLink={trip.googleMapsUrl}
         // startDate={trip.startDate}
         // endDate={trip.endDate}
         // description={trip.description}
+        googleMapsLink={trip.googleMapsUrl}
         image={trip.imageUrl}
         {...trip}
       />

@@ -91,11 +91,12 @@ body {
   color: #918E9B;
   font-size: 13px;
   text-transform: none;
+  text-decoration: none;
 }
 
-.google-maps-link:hover,
-.google-maps-link:focus {
+.google-maps-link:hover {
   color: #222;
+  text-decoration: underline;
 }
 
 .main-title {
